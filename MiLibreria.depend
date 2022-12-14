@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1670990953 source:c:\users\hp\documents\repositorios\milibreria\login.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	"registroUsuarios.h"
+	"checkAdmin.h"
+
+1670988908 source:c:\users\hp\documents\repositorios\milibreria\registrousuarios.c
+	<string.h>
+	<stdio.h>
+	"registroUsuarios.h"
+
+1670986102 c:\users\hp\documents\repositorios\milibreria\registrousuarios.h
+
+1670990990 source:c:\users\hp\documents\repositorios\milibreria\checkadmin.c
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	"checkAdmin.h"
+
+1670990932 c:\users\hp\documents\repositorios\milibreria\checkadmin.h
+
