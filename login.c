@@ -3,14 +3,15 @@
 #include<string.h>
 #include"registroUsuarios.h"
 #include"checkAdmin.h"
+#include"menuAdmin.h"
 
 int main(){
     char user[41];
-    int id;
-    printf("-----------Bienvenido a su libreria------------\n");
-    printf("1. login\n");
-    printf("2. Registro Usuarios\n");
-    printf("3. salir\n");
+    int id,res;
+    printf("------Bienvenido a su librer%ca------\n",161);
+    printf(" 1. login\n");
+    printf(" 2. Registro Usuarios\n");
+    printf(" 3. salir\n");
     scanf("%d",&id);
     fflush(stdin);
 
@@ -18,7 +19,14 @@ int main(){
     {
     case 1:
     system("cls");
-    check();
+    res = check();
+    if(res!=1){
+      break;
+    }else{
+        system("cls");
+        menuAdmin();
+    }
+
         break;
     case 2:
        system("cls");
